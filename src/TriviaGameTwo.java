@@ -11,7 +11,7 @@ public class TriviaGameTwo {
         Scanner scanner = new Scanner(System.in);
 
         String[] que0 = new String[5];
-        que0[0] = "When was Microsoft founded?";
+        que0[0] = "what does 'op' mean?";
         que0[1] = "When was Google founded?";
         que0[2] = "When was Apple founded?";
         que0[3] = "When was Amazon founded?";
@@ -33,7 +33,7 @@ public class TriviaGameTwo {
 
 
         String[] ans0 = new String[5];
-        ans0[0] = "1975";
+        ans0[0] = "having power in java and mcpe";
         ans0[1] = "1998";
         ans0[2] = "1976";
         ans0[3] = "1994";
@@ -83,7 +83,7 @@ public class TriviaGameTwo {
             if (random == 0) {
                 System.out.println(que0[i]);
                 answer = scanner.nextLine();
-                if (answer == ans0[i]) {
+                if (Objects.equals(answer, ans0[i])) {
                     score++;
                     System.out.println("Correct!");
                 } else {
@@ -92,7 +92,7 @@ public class TriviaGameTwo {
             } else if (random == 1) {
                 System.out.println(que1[i]);
                 answer = scanner.nextLine();
-                if (answer == ans1[i]) {
+                if (Objects.equals(answer, ans1[i])) {
                     score++;
                     System.out.println("Correct!");
                 } else {
@@ -102,7 +102,7 @@ public class TriviaGameTwo {
             } else if (random == 2) {
                 System.out.println(que2[i]);
                 answer = scanner.nextLine();
-                if (answer == ans2[i]) {
+                if (Objects.equals(answer, ans2[i])) {
                     score++;
                     System.out.println("Correct!");
                 } else {
