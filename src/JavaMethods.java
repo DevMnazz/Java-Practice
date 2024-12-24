@@ -2,17 +2,18 @@ public class JavaMethods {
     public static void main(String[] args) {
 
         String[] questions = new String[3];
-        questions[0] = "What is the capital of France?";
-        questions[1] = "What is the capital of Germany?";
-        questions[2] = "What is the capital of Italy?";
+        questions[0] = "What is the name of the app where you can post 15-second videos?";
+        questions[1] = "Which social media platform is known for disappearing stories?";
+        questions[2] = "What is the term for a photo taken of oneself?";
 
         String[] answers = new String[3];
-        answers[0] = "Paris";
-        answers[1] = "Berlin";
-        answers[2] = "Rome";
+        answers[0] = "TikTok";
+        answers[1] = "Snapchat";
+        answers[2] = "Selfie";
+
 
         outputQuestionsAndAnswers(questions, answers);
-        System.out.println(sum(5, 3));
+
 
     }
 
