@@ -71,7 +71,7 @@ public class TriviaGameTwo {
         if (Objects.equals(playAgain, "y")) {
             main(args);
         } else {
-            System.out.println("Goodbye!");
+            System.out.println("Goodbye you filthy animal!");
         }
 
     }
